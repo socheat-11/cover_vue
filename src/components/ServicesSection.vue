@@ -45,7 +45,6 @@
   import 'aos/dist/aos.css';
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   import { faCode, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-  import ServicesDetail from './ServicesDetail.vue';
 
   
   // Initialize AOS animation

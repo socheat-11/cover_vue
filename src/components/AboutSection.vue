@@ -1,16 +1,16 @@
 <template>
-    <div class="py-5">
-      <section class="max-w-screen-xl mx-auto  p-4 "  id="about">
-        <div  class="flex flex-wrap items-center justify-between px-4 py-2">
-          <h1  class="text-[25px] text-[#000000] font-bold">
+    <div>
+      <section class="max-w-screen-xl mx-auto text-center p-4 mt-2">
+        <div data-aos="fade-up" data-aos-duration="2000" class="flex flex-wrap items-center justify-between px-4 py-2">
+          <h1 id="batdombong" class="text-[25px] text-[#000000] font-bold">
             <span class="relative inline-block">
               About Me
-              <span class="absolute left-1/2 bottom-0 w-14 h-[3px] bg-[#15b8a6] -translate-x-1/2"></span>
+              <span class="absolute left-1/2 bottom-0 w-14 h-[3px] bg-[#002d5b] -translate-x-1/2"></span>
             </span>
           </h1>
   
           <button
-            class="text-[#15b8a6] rounded-[4px] hover:before:bg-border-red-500 relative h-[50px] w-40 overflow-hidden bg-transparent border border-[#15b8a6] px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#15b8a6] before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
+            class="text-[#002d5b] rounded-[4px] hover:before:bg-border-red-500 relative h-[50px] w-40 overflow-hidden bg-transparent border border-[#025198] px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#025198] before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
             <span class="relative z-0">Hire Me</span>
           </button>
         </div>
@@ -18,14 +18,14 @@
         <div class="py-5">
           <div class="flex space-x-4 flex-col md:flex-row">
             <!-- Profile Image -->
-            <div  data-aos="zoom-in-down" data-aos-duration="2000" class="w-full md:w-1/2 flex flex-col items-center text-center">
-              <div class="bg-[#f5fbfa] shadow-[0px_0px_6px_2px_#edf2f7] w-[250px] sm:w-[280px] md:w-[300px] rounded flex justify-center items-center p-4">
-                <img src="../assets/scoheat1.png" alt="Kin Socheat" class="w-[250px] shadow-[0px_0px_6px_2px_#edf2f7] sm:w-[280px] md:w-[300px] lg:w-[320px] relative lg:-right-16 lg:-bottom-8 bg-[#e8f3f4] rounded transition-all duration-300 hover:scale-105">
+            <div data-aos="fade-up" data-aos-duration="2000" class="w-full md:w-1/2 flex flex-col items-center text-center">
+              <div class="bg-[#15b8a6] w-[250px] sm:w-[280px] md:w-[300px] rounded flex justify-center items-center p-4">
+                <img src="../assets/scoheat1.png" alt="Kin Socheat" class="w-[250px] sm:w-[280px] md:w-[300px] lg:w-[320px] relative lg:-right-16 lg:-bottom-8 bg-[#e8f3f4] rounded transition-all duration-300 hover:scale-105">
               </div>
             </div>
   
             <!-- Profile Information -->
-            <div  data-aos="zoom-in-down" data-aos-duration="2000" class="w-full md:w-1/2 sm:mt-5">
+            <div data-aos="fade-up" data-aos-duration="2000" class="w-full md:w-1/2 sm:mt-5">
               <h2 class="text-[22px] text-start text-[#002d5b] font-bold">My Profile</h2>
               <p class="text-start leading-7 font-light">
                 Hi, I'm <span class="font-normal">Kin Socheat</span>, a Computer Science student at the
@@ -84,8 +84,6 @@
           </div>
         </div>
       </section>
-
-
       <Experiences />
     </div>
   </template>
@@ -97,7 +95,7 @@
     import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
     import { library } from '@fortawesome/fontawesome-svg-core';
     import { faFacebook, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons';
-import Experiences from './Experiences.vue';
+    import Experiences from './Experiences.vue';
   
     // Add FontAwesome icons to the library
     library.add(faFacebook, faLinkedin, faTelegram);
