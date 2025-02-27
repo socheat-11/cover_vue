@@ -1,8 +1,8 @@
 <template>
-  <nav class="bg-[#f5fbfa]">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <nav class="bg-[#f5fbfa] ">
+    <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="../assets/download.png" alt="Logo" class="h-8" />
+        <img src="../assets/socheat.png" alt="Logo" class="h-8 bg-transparent" />
       </a>
       <button
         @click="toggleMenu"
@@ -74,7 +74,6 @@ export default {
         { name: 'Home', href: '#hero' },
         { name: 'About', href: '#about' },
         { name: 'Services', href: '#service' },
-        { name: 'Testimonial', href: '#' },
         { name: 'Pricing', href: '#' },
         { name: 'blog', href: '#' },
         { name: 'Contact Us', href: '#' },
